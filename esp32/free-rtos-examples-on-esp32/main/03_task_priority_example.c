@@ -23,7 +23,7 @@
 void task_low(void *pvParameter) {
     while (1) {
         printf("Low priority task running on Core %d\n", xPortGetCoreID());
-        vTaskDelay(pdMS_TO_TICKS(1000));
+        vTaskDelay(pdMS_TO_TICKS(10000));
     }
 }
 
@@ -37,7 +37,7 @@ void task_low(void *pvParameter) {
 void task_high(void *pvParameter) {
     while (1) {
         printf("High priority task running on Core %d\n", xPortGetCoreID());
-        vTaskDelay(pdMS_TO_TICKS(500));
+        vTaskDelay(pdMS_TO_TICKS(5000));
     }
 }
 
