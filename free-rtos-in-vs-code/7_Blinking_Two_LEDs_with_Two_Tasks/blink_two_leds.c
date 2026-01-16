@@ -1,5 +1,4 @@
 /**
- * @file blink_two_leds.c
  * @brief ESP-IDF FreeRTOS demo comparing vTaskDelay (relative) vs vTaskDelayUntil (absolute).
  *
  * This example blinks two LEDs at different rates to illustrate timing drift
