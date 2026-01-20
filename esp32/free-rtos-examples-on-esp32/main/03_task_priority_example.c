@@ -1,5 +1,4 @@
 /**
- * @file task_priority_example.c
  * @brief Demonstrates FreeRTOS task priorities on ESP32.
  *
  * This example creates two tasks with different priorities:
